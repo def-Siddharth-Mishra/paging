@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class PagingScreen extends StatefulWidget {
+  const PagingScreen({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<PagingScreen> createState() => _PagingScreenState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PagingScreenState extends State<PagingScreen> {
   int _startIndex = 0;
   final List<int> _data = List.generate(100, (index) => index + 1);
 
